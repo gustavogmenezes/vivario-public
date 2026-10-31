@@ -28,6 +28,12 @@ a:hover { color: #287A42; }
   width: 42px; height: 42px; border-radius: 13px; display: grid; place-items: center;
   color: var(--forest); background: var(--cream); font-weight: 800; font-size: 21px;
 }
+.brand-icon {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
 .brand-name { font-size: 23px; font-weight: 750; letter-spacing: -.8px; }
 .brand-name span { color: #75D47A; }
 .tagline { color: #DCE9DF; font-size: 11px; letter-spacing: 2.3px; text-transform: uppercase; }
